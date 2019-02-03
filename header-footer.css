@@ -1,0 +1,170 @@
+.topbar{
+  text-align: center;
+      padding: 4px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.sisas{
+ height: 30px;
+ width: 30px;
+}
+.full-container{
+  width:100%;
+  padding: 4px;
+background: #4b85b2; /* Old browsers */
+background: -moz-linear-gradient(left, #4b85b2 0%, #6bad7a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #4b85b2 0%,#6bad7a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #4b85b2 0%,#6bad7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.cont-info-top{
+      display: flex;
+}
+.cont-location{
+  color: white;
+}
+.top-bar-logo{
+      width: 20px;
+}
+.cont-location:nth-child(1) {
+margin-right: 15px;
+}
+
+.cont-items{
+margin: auto;
+font-size: 19px;
+}
+.mapa-img{
+max-width: 77%;
+}
+.pie-pagina{
+padding: 29px 0px;
+}
+.info-pie{
+color: white;
+margin-top: 25px;
+font-size: 17px;
+}
+.datos-contacto{
+color: white;
+   padding-left: 64px;
+}
+.item-pie{
+margin-bottom: 2px;
+}
+.item-pie>img{
+width: 16px;
+}
+.cont-face-pie{
+margin-top: auto;
+}
+.datos-pie{
+margin-bottom: 50px;
+}
+.face-pie{
+
+}
+.flecha-menu{
+fill: none;
+ stroke-width: 2px;
+ stroke: black;
+}
+
+.menu-item{
+display: inline-block;
+margin-right: 17px;
+cursor: pointer;
+}
+.menu-line{
+display: inline-block;
+   margin-right:10px;
+}
+.menu-item>img{
+width: 21px;
+}
+.menu-one:hover{
+color: #4b85b2;
+}
+.menu-one:hover .flecha-menu{
+stroke: #4b85b2;
+}
+.menu-one:hover .barmenu{
+display: block;
+}
+.menu-two:hover .barmenu{
+display: block;
+}
+.barmenu{
+display:none;
+color:black;
+position: absolute;
+z-index: 19;
+background: white;
+border: 1px solid;
+border-color: #524c4c;
+border-width: 1px;
+padding: 8px 30px 8px 9px;
+font-size: 16px;
+}
+.barmenu li{
+list-style-type: none;
+margin-bottom: 7px;
+}
+.barmenu ul{
+padding-left: 0px;
+}
+.line-barmenu{
+height: 1px;
+background: black;
+margin-bottom: 7px;
+}
+.item-submenu{
+ cursor: pointer;
+}
+.item-submenu:hover{
+color: #4b85b2;
+}
+
+@media (max-width: 991.98px) {
+
+.logo{
+max-width: 152%;
+}
+.cont-items {
+ font-size: 14px;
+}
+}
+
+@media (max-width: 575.98px) {
+.lista-menu{
+padding-left: 0px;
+text-align: center;
+}
+.menu-item {
+ display: inline-block;
+ margin-right: 12px;
+}
+.img-pie{
+   max-width: 70%;
+}
+.cont-img-pie{
+text-align: center;
+}
+.contenedor-pie{
+margin: auto;
+ width: 399px;
+ text-align: center;
+}
+.cont-face-pie {
+   margin-bottom: 13px;
+}
+.datos-contacto {
+text-align: left;
+}
+.pie-pagina {
+ padding: 15px 0px;
+}
+.cont-face-pie {
+ margin-bottom: 25px;
+}
+}
