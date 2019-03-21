@@ -167,11 +167,16 @@ justify-content: center;
   width: 445px;
   margin-left: 119px;
 }
+.Cont-Subtitle{
+  display: inline-block;
+}
 .Subtitulo{
-  color: #6bad7a;
+    color: #6bad7a;
     font-weight: bold;
     font-size: 22px;
-        margin-bottom: 10px;
+    margin-bottom:0px;
+    display: inline-block;
+
 }
 
 /* Safari 4.0 - 8.0 */
@@ -211,9 +216,9 @@ justify-content: center;
   animation-duration: 1s;
 }
 .line-slider{
-width: 344px;
-height: 3px;
-background: #59C086;
+  height: 3px;
+  background: #59C086;
+  width: 102%;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -259,6 +264,7 @@ background: #59C086;
 
 
 .Descripcion{
+  margin-top: 7px;
       width: 525px;
       float: left;
       font-size: 18px;
@@ -295,4 +301,112 @@ font-weight: bold;
 font-size: 22px;
 margin-bottom: 3px;
 margin-top: 3px;
+}
+
+@media (max-width:1145px) {
+
+  .Descripcion{
+    font-size: 16px;
+    width:437px;
+  }
+  .Picture{
+    width: 389px;
+  }
+  .Titulo {
+
+    font-size: 6em;
+  }
+  .Contenedor-titulo {
+    left: 296px;
+    top: 84px;
+}
+
+}
+
+@media (max-width:970px) {
+  .Descripcion {
+    width: 359px;
+}
+.Contenedor-titulo {
+    left: 255px;
+    top: 114px;
+}
+
+.Picture {
+    width: 321px;
+}
+}
+
+@media (max-width:670px){
+
+  #app {
+   height: auto;
+    }
+    .Contenedor-principal {
+    position: initial;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+  .Picture{
+    float: none;
+    margin: 0;
+  }
+   .Contenedor-slide{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   .Cont-Slide-Historia{
+     display: flex;
+flex-direction: column;
+align-items: center;
+   }
+
+   .Contenedor-titulo {
+    position: relative;
+    top: 81px;
+    left: 0;
+    z-index: 1;
+}
+
+.Description-container{
+  width: 91%;
+    margin-top: 15px;
+}
+
+.Subtitulo {
+    margin-bottom: 5px;
+}
+.Descripcion {
+ width: 100%;
+ margin-top: 9px;
+}
+
+.Contenedor-botones {
+    position: initial;
+    clear: both;
+    z-index: 2;
+    background: #4d88ae;
+    border-radius: 16px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    bottom: 3px;
+    margin-bottom: 59px;
+}
+.arrow-title {
+    display: none;
+}
+.img-tringle {
+    width: 0;
+}
+.arrow-img {
+    width: 60px;
+    transition: width 0.5s;
+    transform: rotate(270deg);
+}
+
 }

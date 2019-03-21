@@ -7,7 +7,7 @@ class SlidesController extends Component{
 state={
   objeto:[],
   index:0,
-  cantidadTotal:2,
+  cantidadTotal:9,
   entradaTitulo:"Entrada-titulos Titulo",
   entradaSubtitulo:"Entrada-titulos Subtitulo",
   entradaImagen:"Picture Entrada-imagen",
@@ -70,7 +70,7 @@ prevSlide=()=>{
 
   render(){
     return(
-      <div>
+      <div class="Cont-Slide-Historia">
 
       <Slide entradaLine={this.state.entradaLine} entradaDescription={this.state.entradaDescription} entradaImagen={this.state.entradaImagen} entradaTitulo={this.state.entradaTitulo} entradaSubtitulo={this.state.entradaSubtitulo}  {...this.state.objeto}></Slide>
       <div className="Contenedor-botones">
